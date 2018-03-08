@@ -54,6 +54,13 @@ contactcard > info > i {
 	color: #3d4e62;
 }
 
+contactcard > info > img {
+	width:21px;
+	float:left;
+	margin-right: 5px;
+}
+
+
 a {
 	text-decoration: none;
 	background-color: #eaeaea;

@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/project.css">
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:700|Open+Sans:400,700" rel="stylesheet">
@@ -47,8 +48,12 @@
 				<a href="https://www.linkedin.com/in/arjun372">LinkedIn</a>
 			</info>
 			<info>
-				<i class="material-icons tiny">code</i>
+				<img src="assets/GitHub-Mark-120px-plus.png"></img>
 				<a href="https://github.com/arjun372">GitHub</a>
+			</info>
+			<info>
+				<img src="assets/RG_square_green.jpg"></img>
+				<a href="https://www.researchgate.net/profile/Arjun">ResearchGate</a>
 			</info>
 			<hr style="margin:10px 0px 10px 0;">
 			<info>
@@ -58,31 +63,98 @@
 			<hr>
 		</contactcard>
 		<div class="eleven columns clearfix">
-			<section class="five columns">
-				<h1>About Me</h1>
-				<br>
-				<br>
-				<br>
-			</section>
-			<section class="five columns">
-				<h1>Research Interests</h1>
-				<br>
-				<br>
+			<section class="eleven columns">
+			<h1>About Me</h1>
+			<p>
+				<span>Welcome to you visitor, my name is Kevin Bouchard, I am native to the province of Quebec in Canada and I am currently an assistant Professor at the Université du Québec à Chicoutimi. I am an active member of the Laboratoire d'Intelligence Ambiante pour la Reconnaissance d'Activités (LIARA). Our team is focused on ambient intelligence through the development of multimodal smart homes. These smart homes aim to provide day to day assistance to semi-autonomous residents in order to enhance their quality of life and promote autonomy. The LIARA team also focus on developing smaller assistive technologies targeted at smaller restrained sets of problems (e.g.: independent smart stove to assist while cooking).</span>
+			</p>
 			</section>
 			<section class="eleven columns">
-				<h1>Publications</h1>
-				<br>
-				<br>
+				<h1>Research Interests</h1>
+				<p>My main  interests of research include:
+				<ul style="list-style-type:square">
+				  <li>Data mining</li>
+				  <li>Qualitative Spatial Reasoning</li>
+				  <li>Localization and tracking</li>
+					<li>Ambient intelligence</li>
+				</ul>
+			</p>
+			</section>
+			<section class="eleven columns">
+				<h1>Papers</h1>
+				<article>
+					<header>
+					<p><h1>Indoor Localization Through Machine Learning on WiFi Fingerprints</h1>R Malavalli, Arjun, N Gupta. 2017 International Conference on Indoor Positioning and Indoor Navigation (IPIN), September 2017</p>
+				</header>
+				</article>
+				<article>
+					<header>
+					<p><h1>Evaluation of Bluetooth beacons behavior</h1>K Bouchard, R Ramezani, Arjun, A Naeim. 2016 IEEE 7th Annual Ubiquitous Computing, Electronics Mobile Communication Conference (UEMCON)</p>
+				</header>
+				</article>
+				<article>
+					<header>
+					<p><h1>Low-cost indoor health monitoring system</h1>Babak Moatamed, Arjun, Farhad Shahmohammadi, Ramin Ramezani, Arash Naeim, Majid Sarrafzadeh. Wearable and Implantable Body Sensor Networks (BSN), 2016 IEEE 13th International Conference</p>
+				</header>
+				</article>
 			</section>
 			<section class="eleven columns">
 				<h1>Patents</h1>
-				<br>
-				<br>
+				<article>
+					<header><h1>Subject assessment using localization, activity recognition and a smart questionnaire</h1></header>
+					<a href="https://patents.google.com/patent/WO2016205212A1">WO2016205212A1</a>
+				</article>
 			</section>
 			<section class="eleven columns">
 				<h1>Projects</h1>
-				<br>
-				<br>
+				<project onclick="window.location='http://arjun372.github.io/Analog-Utility-Meter-Reader/';">
+					<i class="material-icons tiny">dehaze</i>
+					<heading>Analog-Utility-Meter-Reader</heading>
+					<desc>An OpenCV implementation of an Analog Utility Meter Reader. Image processing code written in Python, server-side visualization implemented using Node JS and MongoDB.</desc>
+					<status style="abandoned"></status>
+					<update>02-04-2017</update>
+				</project>
+
+				<project onclick="window.location='http://arjun372.github.io/Analog-Utility-Meter-Reader/';">
+					<i class="material-icons tiny">dehaze</i>
+					<heading>RF-Localizer</heading>
+					<desc>Indoor localization on an Android device using WiFi 2.4/5GHz, Bluetooth and GSM/UMTS/LTE through supervised learning. Uses a kernelized Naive Bayes Weka classifier.</desc>
+					<status style="abandoned"></status>
+					<update>02-04-2017</update>
+				</project>
+
+				<project onclick="window.location='http://arjun372.github.io/Analog-Utility-Meter-Reader/';">
+					<i class="material-icons tiny">dehaze</i>
+					<heading>IndoorMapper</heading>
+					<desc>Android Wear application</desc>
+					<status style="abandoned"></status>
+					<update>02-04-2017</update>
+				</project>
+
+				<project onclick="window.location='http://arjun372.github.io/Analog-Utility-Meter-Reader/';">
+					<i class="material-icons tiny">dehaze</i>
+					<heading>Deriche-Edges-Hough-Transform</heading>
+					<desc>Polygon detection framework written in C that implements a deriche edge detector for blurring, calculation of magnitude and gradient direction, non-maximum suppresion, and hystersis thresholding. As a final step, it performs a Hough transform to detect the number and orientation of each polygon edge in the source image.</desc>
+					<status style="abandoned"></status>
+					<update>02-04-2017</update>
+				</project>
+
+				<project onclick="window.location='http://arjun372.github.io/Analog-Utility-Meter-Reader/';">
+					<i class="material-icons tiny">dehaze</i>
+					<heading>Vowel-Recognition-Engine</heading>
+					<desc>Vowel recognition engine, written in C using PortAudio (compatible with OS X, Windows, Linux). Recognition performed by performing k-means clustering on MFCC features in time-segmented integer audio samples.</desc>
+					<status style="abandoned"></status>
+					<update>02-04-2017</update>
+				</project>
+
+				<project onclick="window.location='http://arjun372.github.io/Analog-Utility-Meter-Reader/';">
+					<i class="material-icons tiny">dehaze</i>
+					<heading>3D-Printed-Arduino-Smartwatch</heading>
+					<desc>A</desc>
+					<status style="abandoned"></status>
+					<update>02-04-2017</update>
+				</project>
+
 			</section>
 		</div>
 	</div>
