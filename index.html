@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/project.css">
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:700|Open+Sans:400,700" rel="stylesheet">
@@ -36,7 +37,7 @@
 			</info>
 			<info>
 				<i class="material-icons tiny">email</i>
-				<a href="mailto:arjun372@g.ucla.edu">arjun372@.g.ucla.edu</a>
+				<a href="mailto:arjun372@g.ucla.edu">arjun372@ucla.edu</a>
 			</info>
 			<info>
 				<i class="material-icons tiny">home</i>
@@ -47,42 +48,55 @@
 				<a href="https://www.linkedin.com/in/arjun372">LinkedIn</a>
 			</info>
 			<info>
-				<i class="material-icons tiny">code</i>
+				<img src="assets/GitHub-Mark-120px-plus.png"></img>
 				<a href="https://github.com/arjun372">GitHub</a>
+			</info>
+			<info>
+				<img src="assets/RG_square_green.jpg"></img>
+				<a href="https://www.researchgate.net/profile/Arjun">ResearchGate</a>
 			</info>
 			<hr style="margin:10px 0px 10px 0;">
 			<info>
 				<i class="material-icons tiny" >attach_file</i>
-				<a href="https://github.com/arjun372" style="font-size:larger;font-weight:bold;background-color: white;color:rgb(194,39,39);">Resumé</a>
+				<a href="assets/arjun_resume.pdf" style="font-size:larger;font-weight:bold;background-color: white;color:rgb(194,39,39);">Resumé</a>
 			</info>
 			<hr>
 		</contactcard>
 		<div class="eleven columns clearfix">
-			<section class="five columns">
-				<h1>About Me</h1>
-				<br>
-				<br>
-				<br>
-			</section>
-			<section class="five columns">
-				<h1>Research Interests</h1>
-				<br>
-				<br>
-			</section>
 			<section class="eleven columns">
-				<h1>Publications</h1>
-				<br>
-				<br>
-			</section>
-			<section class="eleven columns">
-				<h1>Patents</h1>
-				<br>
-				<br>
-			</section>
-			<section class="eleven columns">
+				<hr style="margin:0px 0px 20px 0;">
 				<h1>Projects</h1>
-				<br>
-				<br>
+				<project onclick="window.location='https://arjun372.github.io/Deriche-Edges-HoughTransform/';">
+					<i class="material-icons tiny">dehaze</i>
+					<heading>Deriche-Edges-Hough-Transform</heading>
+					<desc>Polygon detection framework written in C that implements a deriche edge detector for blurring, calculation of magnitude and gradient direction, non-maximum suppresion, and hystersis thresholding. As a final step, it performs a Hough transform to detect the number and orientation of each polygon edge in the source image.</desc>
+					<status style="abandoned"></status>
+					<update>02-04-2017</update>
+				</project>
+
+				<project onclick="window.location='https://arjun372.github.io/Analog-Utility-Meter-Reader/';">
+					<i class="material-icons tiny">dehaze</i>
+					<heading>Analog-Utility-Meter-Reader</heading>
+					<desc>An OpenCV implementation of an Analog Utility Meter Reader. Image processing code written in Python, server-side visualization implemented using Node JS and MongoDB.</desc>
+					<status style="abandoned"></status>
+					<update>02-04-2017</update>
+				</project>
+
+				<project onclick="window.location='https://arjun372.github.io/Vowel-Recognition-Engine/';">
+					<i class="material-icons tiny">dehaze</i>
+					<heading>Vowel-Recognition-Engine</heading>
+					<desc>Vowel recognition engine, written in C using PortAudio (compatible with OS X, Windows, Linux). Recognition performed by performing k-means clustering on MFCC features in time-segmented integer audio samples.</desc>
+					<status style="abandoned"></status>
+					<update>02-04-2017</update>
+				</project>
+
+				<project onclick="window.location='https://arjun372.github.io/Indoor-WiFi-Localizer/';">
+					<i class="material-icons tiny">dehaze</i>
+					<heading>Indoor-WiFi-Localizer</heading>
+					<desc>Indoor localization on an Android device using WiFi 2.4/5GHz, Bluetooth and GSM/UMTS/LTE through supervised learning. Uses a kernelized Naive Bayes Weka classifier.</desc>
+					<status style="abandoned"></status>
+					<update>02-04-2017</update>
+				</project>
 			</section>
 		</div>
 	</div>
