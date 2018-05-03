@@ -5,6 +5,17 @@ body {
 	color: rgb(48, 48, 48);
 }
 
+.copyright {
+	text-align: center;
+	width: 100%;
+	font-size: 80%;
+	padding: 0px 0px 20px 0px;
+}
+
+.copyright > hr {
+	margin: 0px 0px 0px 0px;
+}
+
 contactcard > name > sup {
     vertical-align: super;
     font-size: 0.9rem;
