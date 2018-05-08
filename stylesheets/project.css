@@ -1,12 +1,9 @@
-about {
-	/*font-size: 110%;*/
-}
 /* Project Unfocused */
 project {
 	cursor: pointer;
 	display:block;
 	padding:20px;
-	background-color: #fafafa;
+	background-color: #f8f8f8;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
