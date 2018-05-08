@@ -13,7 +13,7 @@
 
 	<meta charset="utf-8">
 	<title>Arjun</title>
-	<meta name="description" content="Arjun's Webpage">
+	<meta name="description" content="Arjun's Personal Page">
 	<meta name="author" content="Arjun">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -53,6 +53,15 @@
 				<i class="material-icons tiny">home</i>
 				Los Angeles, CA
 			</info>
+      <info>
+        <i class="material-icons tiny">vpn_key</i>
+        <a href="assets/C79B8751.txt">GPG Key</a>
+      </info>
+      <hr style="margin:10px 0px 10px 0;">
+      <info>
+        <img src="assets/RG_square_green.jpg"></img>
+        <a href="https://www.researchgate.net/profile/Arjun">ResearchGate</a>
+      </info>
 			<info>
 				<i class="material-icons tiny">link</i>
 				<a href="https://www.linkedin.com/in/arjun372">LinkedIn</a>
@@ -61,58 +70,62 @@
 				<img src="assets/GitHub-Mark-120px-plus.png"></img>
 				<a href="https://github.com/arjun372">GitHub</a>
 			</info>
-			<info>
-				<img src="assets/RG_square_green.jpg"></img>
-				<a href="https://www.researchgate.net/profile/Arjun">ResearchGate</a>
-			</info>
 			<hr style="margin:10px 0px 10px 0;">
 			<info>
 				<i class="material-icons tiny" >attach_file</i>
 				<a href="assets/arjun_resume.pdf" style="font-size:larger;font-weight:bold;background-color: white;color:rgb(194,39,39);">Resumé</a>
 			</info>
-			<hr>
+			<hr style="margin:10px 0px 10px 0;">
 		</contactcard>
 		<div class="eleven columns clearfix">
 			<section class="eleven columns">
-				<hr style="margin:0px 0px 20px 0;">
+				<about>
+        <p>Hey! I'm Arjun, an engineer interested in embedded systems and human activity recognition.</p>
+        <p>I recently graduated from UCLA, where I was working on indoor positioning and activity recognition at the <a href="https://www.cs.ucla.edu/center-for-smart-health/">Center for SMART Health</a>.</p>
+        <p>Before that, I was working at the <a href="http://er.cs.ucla.edu/">eHealth Research Lab</a> on various healthcare related machine learning projects.</p>
+        <p>I maintain this page to serve documentation and code for some of the projects that I have worked on in the past. Currently in my free time, I'm working on <a href="">building a sky-cam.</a></p>
+        </about>
+        <hr style="margin:0px 0px 20px 0;">
 				<h1>Projects</h1>
 				<project onclick="window.location='Deriche-Edges-HoughTransform/index.html';">
 					<i class="material-icons tiny">dehaze</i>
-					<heading>Deriche-Edges-Hough-Transform</heading>
-					<desc>Polygon detection framework for bitmap images written in C that implements Otsu's thresholding and a Deriche edge detector for blurring, calculation of magnitude and gradient direction, non-maximum suppression and hysteresis thresholding. As a final step, it performs a Hough transform to detect the number and orientation of each polygon edge in the source image.</desc>
-					<status style="abandoned"></status>
+					<h4>Deriche-Edges-Hough-Transform</h4>
+					<p>Convex polygon detection using linear hough transform. Polygon detection framework for bitmap images written in C that implements Otsu's thresholding and a Deriche edge detector for blurring, calculation of magnitude and gradient direction, non-maximum suppression and hysteresis thresholding. As a final step, it performs a Hough transform to detect the number and orientation of each polygon edge in the source image.</p>
 					<update>02-04-2017</update>
 				</project>
 
-				<project onclick="window.location='https://arjun372.github.io/Analog-Utility-Meter-Reader/';">
+				<project onclick="window.location='https://github.com/arjun372/Analog-Utility-Meter-Reader';">
 					<i class="material-icons tiny">dehaze</i>
-					<heading>Analog-Utility-Meter-Reader</heading>
-					<desc>An OpenCV implementation of an Analog Utility Meter Reader. Image processing code written in Python, server-side visualization implemented using Node JS and MongoDB.</desc>
-					<status style="abandoned"></status>
+					<h4>Analog-Utility-Meter-Reader</h4>
+					<p>An OpenCV implementation of an Analog Utility Meter Reader. Image processing code written in Python, server-side visualization implemented using Node JS and MongoDB.</p>
 					<update>02-04-2017</update>
 				</project>
 
 				<project onclick="window.location='https://arjun372.github.io/Vowel-Recognition-Engine/';">
 					<i class="material-icons tiny">dehaze</i>
-					<heading>Vowel-Recognition-Engine</heading>
-					<desc>Vowel recognition engine, written in C using PortAudio (compatible with OS X, Windows, Linux). Recognition performed by performing k-means clustering on MFCC features in time-segmented integer audio samples.</desc>
-					<status style="abandoned"></status>
+					<h4>Vowel-Recognition-Engine</h4>
+					<p>Vowel recognition engine, written in C using PortAudio (compatible with OS X, Windows, Linux). Recognition performed by performing k-means clustering on MFCC features in time-segmented integer audio samples.</p>
 					<update>02-04-2017</update>
 				</project>
 
 				<project onclick="window.location='https://arjun372.github.io/Indoor-WiFi-Localizer/';">
 					<i class="material-icons tiny">dehaze</i>
-					<heading>Indoor-WiFi-Localizer</heading>
-					<desc>Indoor localization on an Android device using WiFi 2.4/5GHz, Bluetooth and GSM/UMTS/LTE through supervised learning. Uses a kernelized Naive Bayes Weka classifier.</desc>
-					<status style="abandoned"></status>
+					<h4>Indoor-WiFi-Localizer</h4>
+					<p>Indoor localization on an Android device using WiFi 2.4/5GHz, Bluetooth and GSM/UMTS/LTE through supervised learning. Uses a kernelized Naive Bayes Weka classifier.</p>
 					<update>02-04-2017</update>
 				</project>
+
+        <project onclick="window.location='https://github.com/arjun372/Raspi-SkyCam';">
+          <i class="material-icons tiny">dehaze</i>
+          <h4>Raspi-SkyCam</h4>
+          <p>Night sky camera module for Raspberry Pi using the LS-40180 fish eye lens.</p>
+          <update>05-01-2018</update>
+        </project>
 			</section>
       </div>
-
       <div class="copyright">
         <hr>
-        <span>© 2015–2018 Arjun. All rights reserved.</span>
+        <span>© 2015–2018 Arjun. Verbatim copying and redistribution of this entire page are permitted provided this notice is preserved.</span>
       </div>
 	</div>
 </body>
