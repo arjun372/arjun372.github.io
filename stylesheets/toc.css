@@ -3,7 +3,7 @@ toc {
 	border: 1px solid #ddd;
 	background-color: #fafafa;
 	padding: 10px;
-	font-family: "Open Sans", "HelveticaNeue", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: "Cereal", "HelveticaNeue", 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	margin: 0px 0px 20px 0px;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -17,7 +17,7 @@ toc > hr {
 toc > h5 {
 	width: 100%;
 	text-align: center;
-	font-family: "Open Sans", "HelveticaNeue", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: "Cereal", "HelveticaNeue", 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	display: inline-block;
 	font-weight: bold;
 	color: #d85b70;

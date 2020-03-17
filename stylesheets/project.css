@@ -23,17 +23,17 @@ project > p {
 /* Project focused */
 project:hover, project:focus {
 	background-color: #f0f0f0;
-  border: 1px solid #ccc;
+  	border: 1px solid #ccc;
 }
 
 /* Project heading - unfocused */
 project > h4 {
-  color:#d85b70;
+  	color:#d85b70;
 	display: block;
 	font-weight: bold;
 	font-size:120%;
 	line-height: 24px;
-	font-family: "Open Sans", "HelveticaNeue", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: "Cereal", "HelveticaNeue", 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* Project update status : when project unfocused */

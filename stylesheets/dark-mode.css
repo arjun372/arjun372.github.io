@@ -1,0 +1,41 @@
+@media (prefers-color-scheme: dark) {
+    hr { border-color: rgba(255,255,255,0.1);}
+    body {
+        background-color: rgb(29,30,34);
+        color: rgb(194,188,184);
+    }
+    p {
+        color: rgb(194,188,184);
+    }
+
+    contactcard > name {
+        color: rgb(111, 117, 227);
+    }
+
+    a {
+        background-color: #4d4d4d;
+        color: rgb(194,188,184);
+    }
+
+    a:hover, a:focus {
+        color: rgb(111, 117, 227);
+    }
+
+    header > h1, section > h1 {
+        font-family: "Cereal", "Georgia", "Times New Roman", serif;
+        color: rgb(111, 117, 227);
+    }
+
+    project {
+        background-color: rgba(255,255,255,0.01);
+        border-color: rgba(255,255,255,0.1);
+    }
+    project:hover {
+        background-color: rgba(255,255,255,0.03);
+        border-color: rgba(255,255,255,0.13);
+    }
+    project > update {
+        background-color: rgba(255,255,255,0.01);
+        border-color: rgba(255,255,255,0.1);
+    }
+}

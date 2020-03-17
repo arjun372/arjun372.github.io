@@ -20,9 +20,10 @@
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
 	<link rel="stylesheet" href="stylesheets/project.css">
+	<link rel="stylesheet" href="stylesheets/flip-card.css">
+	<link rel="stylesheet" href="stylesheets/dark-mode.css">
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Oswald:700|Open+Sans:400,700" rel="stylesheet">
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -34,17 +35,31 @@
 <body>
 	<div class="container">
 		<contactcard class="four columns">
-			<img src="images/mug_alt.jpg" class="contactimage">
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="images/mug_3.jpg" alt="Arjun Eyes Closed" class="contactimage" style="width:100%;height:auto">
+					</div>
+					<div class="flip-card-back">
+						<img src="images/mug.jpg" alt="Arjun Eyes Open" class="contactimage"  style="width:100%;height:auto">
+					</div>
+				</div>
+			</div>
 			<name>Arjun</name>
 			<metaname>It's a <a href="https://en.wikipedia.org/wiki/Mononymous_person">mononym</a></metaname>
 			<hr style="margin:10px 0px 10px 0;">
 			<info>
+				<a href="mailto:arjun@engineering.ucla.edu">arjun@engineering.ucla.edu</a>
+			</info>
+			<hr style="margin:10px 0px 10px 0;">
+			<info>
+				<i class="material-icons tiny" >attach_file</i>
+				<a href="assets/arjun_resume.pdf" style="font-size:large;font-weight:800;">Resumé</a>
+			</info>
+			<hr style="margin:10px 0px 10px 0;">
+			<info>
 				<i class="material-icons tiny">phone</i>
 				<a href="tel:+16199622755">+1 619-962-2755</a>
-			</info>
-			<info>
-				<i class="material-icons tiny">email</i>
-				<a style="font-size: 0.8rem" href="mailto:arjun@engineering.ucla.edu">arjun@engineering.ucla.edu</a>
 			</info>
 			<info>
 				<i class="material-icons tiny">home</i>
@@ -67,46 +82,62 @@
 				<img src="assets/GitHub-Mark-120px-plus.png"></img>
 				<a href="https://github.com/arjun372">GitHub</a>
 			</info>
-			<hr style="margin:10px 0px 10px 0;">
 			<info>
-				<i class="material-icons tiny" >attach_file</i>
-				<a href="assets/arjun_resume.pdf" style="font-size:larger;font-weight:bold;background-color: white;color:rgb(194,39,39);">Resumé</a>
-			</info>
+			        <i class="material-icons tiny">photo_camera</i>
+                                <a href="https://www.instagram.com/arjun372/">Instagram</a>
+                        </info>
 			<hr style="margin:10px 0px 10px 0;">
 		</contactcard>
 		<div class="eleven columns clearfix">
 			<section class="eleven columns">
 				<main>
           <p>
-            Hey! I'm Arjun, an engineer interested in embedded systems and human
-            activity recognition.
+			  Hey! I'm Arjun. If you're looking for my personal Wikipedia hosting, it can be found <a href="https://wikipedia.arjun372.com/" target="_blank">here</a>.
+			  The rest of this page is about my work.
+					<hr style="margin:10px 0px 10px 0;">
             <br/>
-            <br/>
-            I recently graduated from UCLA, where I was conducting research on
-            smartwatch-based activity recognition and indoor-positioning at the
+			I currently work as a research engineer at the <a href="https://www.risksciences.ucla.edu/">B. John Garrick Institute
+			for the Risk Sciences</a> from the School of Engineering at UCLA. Over the
+			last couple of years, I have served as software development lead for
+			implementing a suite of tools in the probabilistic risk, reliability,
+			and resilience assessment fields for nuclear, aerospace and power industries.
+			Some of my current projects include <a href="https://www.risksciences.ucla.edu/hcla">HCLA</a>,
+			a system risk and reliability software, which is used to enhance the design process and
+			assess the reliability of commercial off-the-shelf (COTS) parts in space systems for extended deep space
+			missions at NASA’s Jet Propulsion Laboratory (JPL), and the Phoenix human
+			reliability analysis tool for Japan’s Nuclear Regulation Authority (JNRA).
+			<br/>
+			<br/>
+			In the past, I have worked on numerous machine learning projects in the healthcare,
+			bioinformatics and embedded systems domains. One such project is
+			<a href="https://www.risksciences.ucla.edu/current-projects/2016/8/8/sarp-sensing-at-risk-populations">SARP</a>,
+			a smartwatch-based human activity recognition and indoor-positioning platform built at the
             <a href="https://www.risksciences.ucla.edu/smart-health/">Center
-            for SMART Health</a>. Before that, I was working at the
+            for SMART Health</a> in collaboration with the
             <a href="http://er.cs.ucla.edu/">Embedded and Reconfigurable Systems
-            Lab</a> on various healthcare related machine learning projects.
+            Lab</a> at UCLA.
             <br/>
             <br/>
-            Currently, I am working at the <a href="https://www.risksciences.ucla.edu/people-research-staff/arjun">
-            UCLA Risk Science Institute</a>, developing an
-            <a href="https://www.risksciences.ucla.edu/hcla">end-to-end tooling
-            framework</a> for NASA's Jet Propulsion Laboratory for use in
-            space systems.
+            In my free time, I contribute as embedded systems developer to <a href="https://www.cs.ucla.edu/project/center-for-biomedical-real-time-health-evaluation-for-pediatric-asthma-breathe/">BReATHE</a>,
+            a sensor-based real-time pediatric asthma evaluation platform at the <a href="http://www.mii.ucla.edu/research/projects/prisms/">LA PRISMS Center</a>.
+			I'm currently working on renewing my amateur radio license.
             <br/>
-            <br/>
-            In my free time, I contribute as embedded systems developer to <a href="https://www.cs.ucla.edu/project/center-for-biomedical-real-time-health-evaluation-for-pediatric-asthma-breathe/">BREATHE</a>,
-            a real-time pediatric asthma evaluation platform at the <a href="http://www.mii.ucla.edu/research/projects/prisms/">LA PRISMS Center</a>.
-            <br/>
-            <br/>
-            I maintain this page to serve documentation and code for some of the
-            projects that I have worked on in the past.
           </p>
         </main>
         <hr style="margin:0px 0px 20px 0;">
 				<h1 class="small-title">Projects</h1>
+				<project onclick="window.location='https://apps.risksciences.ucla.edu/hcla/';">
+					<i class="material-icons tiny">dehaze</i>
+					<h4>HCLA - Probabilistic Risk Assessment (PRA) Framework</h4>
+					<p>HCLA is a collaborative web-based tool being developed at UCLA to perform traditional PRA based on the Hybrid Causal Logic (HCL) methodology with advanced time-to-failure models, importance measures, and uncertainty quantification. The HCL methodology employs a model-based approach to system analysis. The framework contains a multi-layer structure that integrates event sequence diagrams (ESDs), fault trees (FTs), and bayesian belief networks (BBNs) without converting the entire system into a large BBN. The models can be created with the IRIS software or directly using XML files.</p>
+					<update>In Development</update>
+				</project>
+				<project onclick="window.location='https://apps.risksciences.ucla.edu/phoenix/';">
+					<i class="material-icons tiny">dehaze</i>
+					<h4>Phoenix - Human Reliability Assessment (HRA) Framework</h4>
+					<p>Phoenix is a collaborative web-based tool. Built on a cognitive human response model, Phoenix incorporates strong elements of current HRA good practices, leverages lessons learned from empirical studies, and takes advantage of the best features of existing and emerging HRA methods. The methodology introduces the “Crew Response Tree” which provides a structure for capturing the context associated with Human Failure Events (HFEs), including errors of omission and commission. It also uses a team-centered version of the Information, Decision and Action cognitive model and “macro-cognitive” abstractions of crew behavior, as well as relevant findings from cognitive psychology literature and operating experience, to identify potential causes of failures and influencing factors during procedure-driven and knowledge-supported crew-plant interactions.</p>
+					<update>In Development</update>
+				</project>
 				<project onclick="window.location='Deriche-Edges-HoughTransform/';">
 					<i class="material-icons tiny">dehaze</i>
 					<h4>Deriche-Edges-Hough-Transform</h4>
@@ -145,7 +176,7 @@
       </div>
       <div class="copyright">
         <hr>
-        <span>© 2015–2018 Arjun. Verbatim copying and redistribution of this entire page are permitted provided this notice is preserved.</span>
+        <span>© 2015–2020 Arjun. Verbatim copying and redistribution of this entire page are permitted provided this notice is preserved.</span>
       </div>
 	</div>
 </body>

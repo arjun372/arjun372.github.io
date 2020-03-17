@@ -1,10 +1,14 @@
 
 body {
 	margin-top: 50px;
-	font-family: "Open Sans", "HelveticaNeue", 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color: rgb(48, 48, 48);
+	font-family: "Cereal", "HelveticaNeue", 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+main > p {
+	text-align: justify;
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
 .copyright {
 	text-align: center;
 	width: 100%;
@@ -18,11 +22,11 @@ body {
 
 section > h3 {
 	padding-top: 10px;
-	font-family: "Oswald", "Georgia", "Times New Roman", serif;
+	font-family: "Cereal", "Georgia", "Times New Roman", serif;
 }
 
 section > h4 {
-	font-family: "Oswald", "Georgia", "Times New Roman", serif;
+	font-family: "Cereal", "Georgia", "Times New Roman", serif;
 }
 
 section > hr {
@@ -43,14 +47,14 @@ code {
 	text-align: center;
 	text-transform: uppercase;
 	color: #373335;
-	font-family: "Oswald", "Georgia", "Times New Roman", serif;
+	font-family: "Cereal", "Georgia", "Times New Roman", serif;
 }
 
 .git {
 	text-align: center;
 	text-transform: uppercase;
 	color: #008e00;
-	font-family: "Oswald", "Georgia", "Times New Roman", serif;
+	font-family: "Cereal", "Georgia", "Times New Roman", serif;
 }
 
 contactcard > name > sup {
@@ -61,10 +65,11 @@ contactcard > name > sup {
 
 contactcard > name {
 	display: block;
-	font-family: "Oswald", "Georgia", "Times New Roman", serif;
+	font-family: "Cereal", "Georgia", "Times New Roman", serif;
 	color: #3c78d8;
 	font-size: 2.5em;
 	padding-bottom: 14px;
+	font-weight: 500;
 }
 
 contactcard > .contactimage {
@@ -81,7 +86,7 @@ line {
 	display: block;
 	height: 1px;
 	border: 0;
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #cc3814;
 	margin: 1em 0;
 	padding: 1em 0;
 }
@@ -128,7 +133,7 @@ a:hover, a:focus {
 }
 
 header > h1, section > h1 {
-	font-family: "Oswald", "Georgia", "Times New Roman", serif;
+	font-family: "Cereal", "Georgia", "Times New Roman", serif;
 	color: #3c78d8;
 }
 
@@ -142,7 +147,7 @@ article {
 }
 
 article > header > h1 {
-	font-family: "Open Sans", "HelveticaNeue", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: "Cereal", "HelveticaNeue", 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 112%;
 	font-weight: bold;
 	line-height: 150%;

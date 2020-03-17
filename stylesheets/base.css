@@ -22,6 +22,48 @@
 	#Misc */
 
 
+@font-face {
+	font-weight: 800;
+	font-style: normal;
+	font-family: 'Cereal';
+	src: url('../assets/fonts/cereal/Cereal-Black.woff2') format('woff2');
+}
+
+@font-face {
+	font-weight: 700;
+	font-style: normal;
+	font-family: 'Cereal';
+	src: url('../assets/fonts/cereal/Cereal-Extra-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-weight: 600;
+	font-style: normal;
+	font-family: 'Cereal';
+	src: url('../assets/fonts/cereal/Cereal-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-weight: 500;
+	font-style: normal;
+	font-family: 'Cereal';
+	src: url('../assets/fonts/cereal/Cereal-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-weight: 400;
+	font-style: normal;
+	font-family: 'Cereal';
+	src: url('../assets/fonts/cereal/Cereal-Book.woff2') format('woff2');
+}
+
+@font-face {
+	font-weight: 300;
+	font-style: normal;
+	font-family: 'Cereal';
+	src: url('../assets/fonts/cereal/Cereal-Light.woff2') format('woff2');
+}
+
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -52,18 +94,19 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #444;
+		font: 14px/21px "Cereal", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: rgb(48,48,48);
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
+
 
 
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
-		font-family: "Georgia", "Times New Roman", serif;
+		font-family: "Cereal", "Georgia", "Times New Roman", serif;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
@@ -154,7 +197,7 @@
 	  margin-bottom: 20px;
 	  line-height: normal;
 	  padding: 8px 10px;
-	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	  font-family: "Cereal", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 	.button:hover,
 	button:hover,
@@ -223,7 +266,7 @@
 		-moz-border-radius: 2px;
 		-webkit-border-radius: 2px;
 		border-radius: 2px;
-		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 13px "Cereal", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #777;
 		margin: 0;
 		width: 210px;
