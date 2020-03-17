@@ -60,7 +60,7 @@ code {
 contactcard > name > sup {
     vertical-align: super;
     font-size: 0.9rem;
-		color: #444;
+	color: #444;
 }
 
 contactcard > name {
@@ -69,6 +69,7 @@ contactcard > name {
 	color: #3c78d8;
 	font-size: 2.5em;
 	padding-bottom: 14px;
+	margin-top:24px;
 	font-weight: 500;
 }
 
