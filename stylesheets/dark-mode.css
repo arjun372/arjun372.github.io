@@ -14,12 +14,12 @@
     }
 
     a {
-        background-color: #4d4d4d;
+        background-color: rgba(151, 151, 151, 0.37);
         color: rgb(194,188,184);
     }
 
     a:hover, a:focus {
-        color: rgb(111, 117, 227);
+        color: #d85b70;
     }
 
     header > h1, section > h1 {
