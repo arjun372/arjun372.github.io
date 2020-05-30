@@ -1,8 +1,8 @@
 @media (prefers-color-scheme: dark) {
     hr { border-color: rgba(255,255,255,0.1);}
     body {
-        --basecolor: rgb(29,30,34);
-        --hovercolor: rgb(29, 14, 48);
+        --basecolor: linear-gradient(332deg, rgba(4, 4, 4, 1), rgb(29, 30, 34) 79.83%, rgba(48, 50, 58, 1));
+        --hovercolor: linear-gradient(0deg, rgba(2,0,36,1) 50%, rgba(29,14,48,1) 100%);
         color: rgb(194,188,184);
     }
     p {
