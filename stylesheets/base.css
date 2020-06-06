@@ -76,7 +76,7 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body {
-		line-height: 1; }
+		line-height: 1.5; }
 	ol, ul {
 		list-style: none; }
 	blockquote, q {
@@ -93,7 +93,8 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		font: 14px/21px "Cereal", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: "Cereal", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 1rem;
 		color: rgb(48,48,48);
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;

@@ -1,42 +1,40 @@
-@media (prefers-color-scheme: dark) {
-    hr { border-color: rgba(255,255,255,0.1);}
-    body {
-        --basecolor: linear-gradient(332deg, rgba(4, 4, 4, 1), rgb(29, 30, 34) 79.83%, rgba(48, 50, 58, 1));
-        --hovercolor: linear-gradient(0deg, rgba(2,0,36,1) 50%, rgba(29,14,48,1) 100%);
-        color: rgb(194,188,184);
-    }
-    p {
-        color: rgb(194,188,184);
-    }
+hr { border-color: rgba(255,255,255,0.1);}
+body {
+    --basecolor: linear-gradient(332deg, rgba(4, 4, 4, 1), rgb(29, 30, 34) 79.83%, rgba(48, 50, 58, 1));
+    --hovercolor: linear-gradient(0deg, rgba(2,0,36,1) 50%, rgba(29,14,48,1) 100%);
+    color: rgb(194,188,184);
+}
+p {
+    color: rgb(194,188,184);
+}
 
-    contactcard > name {
-        color: rgb(111, 117, 227);
-    }
+contactcard > name {
+    color: rgb(111, 117, 227);
+}
 
-    a {
-        background-color: rgba(151, 151, 151, 0.37);
-        color: rgb(194,188,184);
-    }
+a {
+    background-color: rgba(151, 151, 151, 0.37);
+    color: rgb(194,188,184);
+}
 
-    a:hover, a:focus {
-        color: #d85b70;
-    }
+a:hover, a:focus {
+    color: #d85b70;
+}
 
-    header > h1, section > h1 {
-        font-family: "Cereal", "Georgia", "Times New Roman", serif;
-        color: rgb(111, 117, 227);
-    }
+header > h1, section > h1 {
+    font-family: "Cereal", "Georgia", "Times New Roman", serif;
+    color: rgb(111, 117, 227);
+}
 
-    project {
-        background-color: rgba(255,255,255,0.01);
-        border-color: rgba(255,255,255,0.1);
-    }
-    project:hover {
-        background-color: rgba(255,255,255,0.03);
-        border-color: rgba(255,255,255,0.13);
-    }
-    project > update {
-        background-color: rgba(255,255,255,0.01);
-        border-color: rgba(255,255,255,0.1);
-    }
+project {
+    background-color: rgba(255,255,255,0.01);
+    border-color: rgba(255,255,255,0.1);
+}
+project:hover {
+    background-color: rgba(255,255,255,0.03);
+    border-color: rgba(255,255,255,0.13);
+}
+project > update {
+    background-color: rgba(255,255,255,0.01);
+    border-color: rgba(255,255,255,0.1);
 }
