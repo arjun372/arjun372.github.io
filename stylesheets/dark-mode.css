@@ -8,10 +8,6 @@ p {
     color: rgb(194,188,184);
 }
 
-contactcard > name {
-    color: rgb(111, 117, 227);
-}
-
 a {
     background-color: rgba(151, 151, 151, 0.37);
     color: rgb(194,188,184);
