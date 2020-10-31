@@ -77,18 +77,17 @@ contactcard > name {
 	font-size: 2em;
 	line-height: 1em;
 	padding-bottom: 14px;
-	margin-top:32px;
+	/*margin-top:32px;*/
 	font-weight: 500;
 }
 
-contactcard > .contactimage {
+contactcard > div > div > div > .contactimage {
 	width: 100%;
 	height: auto;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	display: block;
-	margin: 0px auto 2em auto;
 }
 
 line {

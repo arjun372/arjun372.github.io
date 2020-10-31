@@ -1,7 +1,7 @@
 hr { border-color: rgba(255,255,255,0.1);}
 body {
-    --basecolor: linear-gradient(332deg, rgba(4, 4, 4, 1), rgb(29, 30, 34) 79.83%, rgba(48, 50, 58, 1));
-    --hovercolor: linear-gradient(to top, rgba(2, 0, 36, 1) 18.91%, rgb(21, 12, 42) 43.28%, rgba(29, 14, 48, 0.96) 78.99%, rgb(48, 57, 68) 97.48%);
+    --hovercolor: linear-gradient(332deg, rgba(4, 4, 4, 1), rgb(29, 30, 34) 79.83%, rgba(48, 50, 58, 1));
+    --basecolor: linear-gradient(to top, rgba(2, 0, 36, 1) 18.91%, rgb(21, 12, 42) 43.28%, rgba(29, 14, 48, 0.96) 78.99%, rgb(48, 57, 68) 97.48%);
     color: rgb(194,188,184);
 }
 p {

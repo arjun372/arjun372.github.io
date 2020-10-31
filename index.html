@@ -14,11 +14,12 @@
 			document.getElementById('root').style.background = `var(${color})`;
 		}
 		function onHover() {
-			setBg('--hovercolor');
+			//setBg('--hovercolor');
 			document.getElementById('flipcard').style.transform = 'rotateY(180deg)';
 		}
 		function onHoverOut() {
-			setBg('--basecolor');
+			//setBg('--basecolor');
+			document.getElementById('flipcard').style.transform = 'rotateY(0deg)';
 		}
 	</script>
 
@@ -48,13 +49,13 @@
 <div id="root" >
 	<div class="container">
 		<contactcard class="four columns">
-			<div class="flip-card" onmouseover="onHover()">
+			<div class="flip-card" onmouseover="onHover()" onmouseout="onHoverOut()">
 				<div id="flipcard"  class="flip-card-inner">
 					<div class="flip-card-front">
-						<img src="images/mug.jpg" alt="Open" class="contactimage"  style="width:100%;height:auto">
+						<img src="images/mug_3.jpg" alt="Open" class="contactimage">
 					</div>
 					<div class="flip-card-back">
-						<img src="images/mug_3.jpg" alt="Closed" class="contactimage" style="width:100%;height:auto">
+						<img src="images/cup.jpg" alt="Closed" class="contactimage">
 					</div>
 				</div>
 			</div>
