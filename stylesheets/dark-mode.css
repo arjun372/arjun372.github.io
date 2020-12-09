@@ -34,3 +34,6 @@ project > update {
     background-color: rgba(255,255,255,0.01);
     border-color: rgba(255,255,255,0.1);
 }
+h1, h2, h3, h4, h5, h6 {
+    color: #d85b70;
+}
