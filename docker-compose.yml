@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  bio:
+     build: .
+     restart: always
+     container_name: bio
+     expose:
+       - "80"
+     environment:
+       - VIRTUAL_HOST=arjunearthperson.com
+       - VIRTUAL_PORT=80
+       - LETSENCRYPT_HOST=arjunearthperson.com
+       - LETSENCRYPT_EMAIL=mail@arjunearthperson.com
