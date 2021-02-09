@@ -98,11 +98,11 @@
 		color: rgb(48,48,48);
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
-		transition: all 0.66s ease;
+		transition: background 0.66s ease;
 		background-image: url("../images/back_1.jpg");
  }
 	body > * {
-		transition: all 0.66s ease;
+		transition: background 0.66s ease;
 	}
 
 
