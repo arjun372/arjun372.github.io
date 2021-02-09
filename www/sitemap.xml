@@ -7,28 +7,33 @@
         <loc>https://arjunearthperson.com/</loc>
         <image:image>
             <image:geo_location>UCLA Campus, Los Angeles, California, USA</image:geo_location>
-            <image:loc>https://arjunearthperson.com/images/mug_1.jpg</image:loc>
+            <image:loc>images/mug_1.jpg</image:loc>
         </image:image>
         <image:image>
             <image:geo_location>Raleigh, North Carolina, USA</image:geo_location>
-            <image:loc>https://arjunearthperson.com/images/mug_2.jpg</image:loc>
+            <image:loc>images/mug_2.jpg</image:loc>
         </image:image>
         <image:image>
             <image:geo_location>Point Reyes National Seashore, Marin County, California, USA</image:geo_location>
-            <image:loc>https://arjunearthperson.com/images/mug_3.jpg</image:loc>
+            <image:loc>images/mug_3.jpg</image:loc>
         </image:image>
         <image:image>
             <image:geo_location>Westwood, Los Angeles, California, USA</image:geo_location>
-            <image:loc>https://arjunearthperson.com/images/mug_4.jpg</image:loc>
+            <image:loc>images/mug_4.jpg</image:loc>
         </image:image>
         <image:image>
             <image:geo_location>UCLA Campus, Los Angeles, California, USA</image:geo_location>
-            <image:loc>https://arjunearthperson.com/images/mug_5.jpg</image:loc>
+            <image:loc>images/mug_5.jpg</image:loc>
         </image:image>
     </url>
     <url>
         <loc>
             https://arjunearthperson.com/assets/arjun_resume.pdf
+        </loc>
+    </url>
+    <url>
+        <loc>
+            https://arjunearthperson.com/assets/arjun_contactcard.vcf
         </loc>
     </url>
     <url>
