@@ -2,7 +2,7 @@ version: '3'
 
 services:
   bio:
-     build: .
+     image: library/nginx:stable
      restart: always
      container_name: bio
      expose:

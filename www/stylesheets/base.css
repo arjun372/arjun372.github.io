@@ -99,7 +99,7 @@
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 		transition: background 0.66s ease;
-		background-image: url("../images/back_1.jpg");
+		/*background-image: url("../images/back_1.jpg");*/
  }
 	body > * {
 		transition: background 0.66s ease;
