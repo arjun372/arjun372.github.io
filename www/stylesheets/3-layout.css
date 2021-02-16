@@ -64,24 +64,17 @@ code {
 	font-family: "Cereal", "Georgia", "Times New Roman", serif;
 }
 
-contactcard > name > sup {
+.name > sup {
     vertical-align: super;
     font-size: 0.9rem;
 	color: #444;
 }
 
-contactcard > name {
-	display: block;
-	font-family: "Cereal", "Georgia", "Times New Roman", serif;
+.name {
 	color: rgb(111, 117, 227);
-	font-size: 2em;
-	line-height: 1em;
-	padding-bottom: 14px;
-	/*margin-top:32px;*/
-	font-weight: 500;
 }
 
-contactcard > div > div > div > .contactimage {
+.contactimage {
 	width: 100%;
 	height: auto;
 	border-radius: 10px;
@@ -104,18 +97,26 @@ line > .thick {
 	border-top: 3px solid #ccc;
 }
 
-contactcard > info {
+.info {
+	border-top: 1px solid rgba(255,255,255,0.13);
+	margin-bottom: unset;
+	padding-top: 12px;
+	margin-top: 12px;
+}
+.info li {
 	display: block;
 	height: 24px;
-	padding-top:2px;
+	line-height: 24px;
+	margin-bottom: unset;
 }
-contactcard > info > i {
+
+.info i {
 	float:left;
 	margin-right: 5px;
 	color: #3d4e62;
 }
 
-contactcard > info > img {
+.info img {
 	width:21px;
 	float:left;
 	margin-right: 5px;
