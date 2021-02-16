@@ -27,7 +27,7 @@
 	font-style: normal;
 	font-family: 'Cereal';
 	src: local(Cereal);
-	src: url('assets/fonts/cereal/Cereal-Black.woff2') format('woff2');
+	src: url('../assets/fonts/cereal/Cereal-Black.woff2') format('woff2');
 }
 
 @font-face {
@@ -35,7 +35,7 @@
 	font-style: normal;
 	font-family: 'Cereal';
 	src: local(Cereal);
-	src: url('assets/fonts/cereal/Cereal-Extra-Bold.woff2') format('woff2');
+	src: url('../assets/fonts/cereal/Cereal-Extra-Bold.woff2') format('woff2');
 }
 
 @font-face {
@@ -43,7 +43,7 @@
 	font-style: normal;
 	font-family: 'Cereal';
 	src: local(Cereal);
-	src: url('assets/fonts/cereal/Cereal-Bold.woff2') format('woff2');
+	src: url('../assets/fonts/cereal/Cereal-Bold.woff2') format('woff2');
 }
 
 @font-face {
@@ -51,7 +51,7 @@
 	font-style: normal;
 	font-family: 'Cereal';
 	src: local(Cereal);
-	src: url('assets/fonts/cereal/Cereal-Medium.woff2') format('woff2');
+	src: url('../assets/fonts/cereal/Cereal-Medium.woff2') format('woff2');
 }
 
 @font-face {
@@ -59,7 +59,7 @@
 	font-style: normal;
 	font-family: 'Cereal';
 	src: local(Cereal);
-	src: url('assets/fonts/cereal/Cereal-Medium.woff2') format('woff2');
+	src: url('../assets/fonts/cereal/Cereal-Medium.woff2') format('woff2');
 }
 
 @font-face {
@@ -67,7 +67,7 @@
 	font-style: normal;
 	font-family: 'Cereal';
 	src: local(Cereal);
-	src: url('assets/fonts/cereal/Cereal-Light.woff2') format('woff2');
+	src: url('../assets/fonts/cereal/Cereal-Light.woff2') format('woff2');
 }
 
 /* #Reset & Basics (Inspired by E. Meyers)
