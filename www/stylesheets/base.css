@@ -51,7 +51,7 @@
 }
 
 @font-face {
-	font-weight: 400;
+	font-weight: 400 normal;
 	font-style: normal;
 	font-family: 'Cereal';
 	src: url('../assets/fonts/cereal/Cereal-Book.woff2') format('woff2');
