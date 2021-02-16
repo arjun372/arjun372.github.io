@@ -229,7 +229,9 @@
       clear: both; }
     .row,
     .clearfix {
-      zoom: 1; }
+        transform:scale(1);
+        transform-origin: 0 0;
+    }
 
     /* You can also use a <br class="clear" /> to clear columns */
     .clear {
