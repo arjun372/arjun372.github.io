@@ -212,7 +212,7 @@ em {
 		line-height: 21pt;
 	}
 
-	.container > contactcard {
+	.container > .contactcard {
 		font-size: 80%;
 		line-height: 160%;
 	}
