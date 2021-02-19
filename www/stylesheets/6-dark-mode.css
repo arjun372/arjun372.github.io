@@ -9,12 +9,16 @@ p {
 }
 
 a {
-    background-color: rgba(151, 151, 151, 0.37);
+    background-color: rgba(255, 255, 255, 0.1);
     color: rgb(194,188,184);
+    filter: saturate(100%);
+    -webkit-filter: saturate(100%);
 }
 
 a:hover, a:focus {
     color: #d85b70;
+    filter: saturate(200%);
+    -webkit-filter: saturate(200%);
 }
 
 header > h1, section > h1 {
@@ -22,15 +26,15 @@ header > h1, section > h1 {
     color: rgb(111, 117, 227);
 }
 
-project {
+.project {
     background-color: rgba(255,255,255,0.01);
     border-color: rgba(255,255,255,0.1);
 }
-project:hover {
+.project:hover {
     background-color: rgba(255,255,255,0.03);
     border-color: rgba(255,255,255,0.13);
 }
-project > update {
+.project > .update {
     background-color: rgba(255,255,255,0.01);
     border-color: rgba(255,255,255,0.1);
 }

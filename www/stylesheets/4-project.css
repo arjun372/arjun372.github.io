@@ -1,5 +1,5 @@
 /* Project Unfocused */
-project {
+.project {
 	cursor: pointer;
 	display:block;
 	padding:20px;
@@ -7,27 +7,27 @@ project {
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	border: 1px solid #ddd;
+	border: 1px solid rgba(255,255,255,0.1);
 	margin: 20px 0px 20px 0px;
 }
 
-project > i {
+.project > i {
   float:left;
   margin-right: 8px;
   color:#aaa;
 }
 
-project > p {
+.project > p {
 	margin:10px 0 15px 0;
 }
 /* Project focused */
-project:hover, project:focus {
+.project:hover, .project:focus {
 	background-color: #f0f0f0;
   	border: 1px solid #ccc;
 }
 
 /* Project heading - unfocused */
-project > h4 {
+.project > h4 {
   	color:#d85b70;
 	display: block;
 	font-weight: bold;
@@ -37,7 +37,7 @@ project > h4 {
 }
 
 /* Project update status : when project unfocused */
-project > update {
+.project > .update {
   font-family:monospace;
   border-radius: 5px;
   background-color: #fff;
@@ -48,6 +48,6 @@ project > update {
 }
 
 /* Project update status : Project focused */
-project:hover update, project:focus update {
+.project:hover .update, .project:focus .update {
 	/*background-color: #fafafa;*/
 }
