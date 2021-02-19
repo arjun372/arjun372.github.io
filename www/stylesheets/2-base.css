@@ -40,23 +40,23 @@
 	src: url('../assets/fonts/cereal/Cereal-Extra-Bold.woff2') format('woff2');
 }
 
-@font-face {
-	font-weight: 600;
-	font-style: normal;
-	font-family: 'Cereal';
-	font-display: swap;
-	src: local(sans-serif);
-	src: url('../assets/fonts/cereal/Cereal-Bold.woff2') format('woff2');
-}
+/*@font-face {*/
+/*	font-weight: 600;*/
+/*	font-style: normal;*/
+/*	font-family: 'Cereal';*/
+/*	font-display: swap;*/
+/*	src: local(sans-serif);*/
+/*	src: url('../assets/fonts/cereal/Cereal-Bold.woff2') format('woff2');*/
+/*}*/
 
-@font-face {
-	font-weight: 500;
-	font-style: normal;
-	font-family: 'Cereal';
-	font-display: swap;
-	src: local(sans-serif);
-    src: url('../assets/fonts/cereal/Cereal-Medium.woff2') format('woff2');
-}
+/*@font-face {*/
+/*	font-weight: 500;*/
+/*	font-style: normal;*/
+/*	font-family: 'Cereal';*/
+/*	font-display: swap;*/
+/*	src: local(sans-serif);*/
+/*    src: url('../assets/fonts/cereal/Cereal-Medium.woff2') format('woff2');*/
+/*}*/
 
 @font-face {
 	font-weight: 400;
@@ -67,14 +67,14 @@
 	src: url('../assets/fonts/cereal/Cereal-Book.woff2') format('woff2');
 }
 
-@font-face {
-	font-weight: 300;
-	font-style: normal;
-	font-family: 'Cereal';
-	font-display: swap;
-	src: local(sans-serif);
-	src: url('../assets/fonts/cereal/Cereal-Light.woff2') format('woff2');
-}
+/*@font-face {*/
+/*	font-weight: 300;*/
+/*	font-style: normal;*/
+/*	font-family: 'Cereal';*/
+/*	font-display: swap;*/
+/*	src: local(sans-serif);*/
+/*	src: url('../assets/fonts/cereal/Cereal-Light.woff2') format('woff2');*/
+/*}*/
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
