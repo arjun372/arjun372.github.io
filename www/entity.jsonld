@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Person",
+  "name": "Arjun Earthperson",
+  "url": "https://arjunearthperson.com",
+  "telephone": "(619) 962-2755",
+  "email": [
+    "mailto:arjun@engineering.ucla.edu",
+    "mailto:aarjun@ncsu.edu"
+  ],
+  "jobTitle": "Graduate Student",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "North Carolina State University",
+    "sameAs": [
+      "https://www.ncsu.edu/",
+      "https://www.ne.ncsu.edu/"
+    ]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Raleigh",
+    "streetAddress": "2500 Stinson Dr",
+    "postalCode": "27607",
+    "addressRegion": "North Carolina",
+    "addressCountry": "USA"
+  },
+  "image": [
+    "https://arjunearthperson.com/images/mug_1.jpg",
+    "https://arjunearthperson.com/images/mug_2.jpg",
+    "https://arjunearthperson.com/images/mug_3.jpg",
+    "https://arjunearthperson.com/images/mug_4.jpg",
+    "https://arjunearthperson.com/images/mug_5.jpg",
+    "https://arjunearthperson.com/images/mug_1.webp",
+    "https://arjunearthperson.com/images/mug_2.webp",
+    "https://arjunearthperson.com/images/mug_3.webp",
+    "https://arjunearthperson.com/images/mug_4.webp",
+    "https://arjunearthperson.com/images/mug_5.webp"
+  ],
+  "alumniOf": [
+    {
+      "@type": "Organization",
+      "name": "UCLA",
+      "sameAs": "https://www.ucla.edu"
+    },
+    {
+      "@type": "Organization",
+      "name": "The Doon School",
+      "sameAs": "https://www.doonschool.com"
+    }
+  ],
+  "sameAs" : [
+    "https://www.ne.ncsu.edu/prag/people/arjun-earthperson",
+    "https://www.risksciences.ucla.edu/people-research-staff/arjun-earthperson/",
+    "https://scholar.google.com/citations?user=AAwyEswAAAAJ",
+    "https://www.researchgate.net/profile/Arjun_Earthperson",
+    "https://www.zotero.org/arjunearthperson",
+    "https://www.linkedin.com/in/arjun372",
+    "https://www.instagram.com/arjunearthperson/",
+    "https://twitter.com/a_earthperson",
+    "https://apps.risksciences.ucla.edu/gitlab/arjun",
+    "https://apps.ne.ncsu.edu/gitlab/arjun",
+    "https://github.com/arjun372"
+  ],
+  "colleague": [
+    "https://www.ne.ncsu.edu/people/madiacon/",
+    "https://scholar.google.com/citations?user=e5o_VA8AAAAJ",
+    "https://samueli.ucla.edu/people/ramin-ramezani/",
+    "https://www.researchgate.net/profile/Marilia-Ramos",
+    "https://www.researchgate.net/profile/Elaheh-Rabiei",
+    "https://dblp.org/pid/s/MajidSarrafzadeh.html"
+  ]
+}
