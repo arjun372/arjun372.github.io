@@ -11,10 +11,8 @@ body {
 	background: var(--basecolor);
 }
 
-main > p {
+#content > p {
 	text-align: justify;
-	/*font-size: 1rem;*/
-	/*line-height: 1.5rem;*/
 }
 .copyright {
 	text-align: center;
